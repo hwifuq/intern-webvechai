@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+:root{
+    --main-color:#6F8FAF;
+}
+.contain{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    font-family: 'Patrick Hand', cursive;
+}
+a{
+    text-decoration: none;
+}
+
+.header{
+}
+.header .body{
+    padding-top: 24px ;
+    background-color:var(--main-color);
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .body .logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .logo img{
+    width: 56px;
+    border-radius: 50%;
+}
+.header .body .nav{
+    width: 70%;
+}
+.header .nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.header li a{
+    font-size: 18px;
+    font-weight: 700;
+    padding:8px 24px;
+    margin: 0 4px;
+}
+.header .sub-nav a{
+    color: #722F37;
+}
+.header .sub-nav a:hover{
+    text-shadow: -2px -2px #FAE5D3;
+}
+.header .action a{
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 12px;
+}
+.header .action a:hover{
+    text-shadow: -2px -2px #FAE5D3;
+    box-shadow: -1px 1px 14px 1px #FAE5D3;
+}
+.header .action .sign-in a{
+    background-color:#7DCEA0;
+}
+.header .action .sign-up a{
+    margin-right: 48px;
+    background-color: #D98880;
+}
+

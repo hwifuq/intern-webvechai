@@ -10,6 +10,7 @@
     width: 1100px;
     margin-left: auto;
     margin-right: auto;
+    /* background-color: rgb(29, 123, 160); */
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -221,4 +222,78 @@ a{
     color: #fff;
     cursor: pointer;
     text-transform: capitalize;
+    letter-spacing: 1.8px;
+}
+/* ============================================================= */
+.preferential{
+    /* background-color: orange; */
+}
+.preferential .title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+    padding: 56px 0 0 24px
+}
+.preferential .sub-title{
+    font-size: 32px;
+    font-weight: bold;
+
+    text-transform: capitalize;
+}
+.preferential .info-buyer .sub-title{
+    text-shadow: -1px -4px rgb(206, 181, 181);
+    color: #521414;
+}
+.preferential .info-seller .sub-title{
+    text-shadow: -1px -4px rgb(205, 209, 214);
+    color: #291194;
+}
+.preferential .info-buyer .sub-title::before{
+    content: "";
+    width: 16px;
+    height: 4px;
+    background-color:#490202;
+    position: absolute;
+    top: 36px;
+    left: -8px;
+}
+.preferential .info-seller .sub-title::before{
+    content: "";
+    width: 16px;
+    height: 4px;
+    background-color:#0f1186;
+    position: absolute;
+    top: 36px;
+    left: -8px;
+}
+.preferential .info-buyer{
+    margin: 50px 0 0 100px;
+    display: flex;
+    /* gap: 200px; */
+    position: relative;
+    justify-content: space-between;
+}
+.preferential .info-seller{
+    margin: 74px 0 0 100px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 200px; */
+    position: relative;
+}
+.preferential .body ul li{
+    min-width: 520px;
+    font-size: 16px;
+    padding: 16px 12px;
+    margin: 0 100px 16px 0;
+    border-radius: 8px;
+    text-transform: capitalize;
+    box-shadow: -2px -2px currentColor;
+}
+.preferential .info-buyer ul li{
+    background-color: rgb(223, 218, 255);
+}
+.preferential .info-seller ul li{
+    background-color: rgb(223, 227, 255);
 }

@@ -357,3 +357,19 @@ a{
     color: var(--main-color);
     background-color: #fff;
 }
+/* ==================================== */
+.footer .body{
+    padding: 24px;
+    display: flex;
+}
+.footer img{
+    width: 40%;
+}
+.footer .info{
+    margin-left: 120px;
+}
+.footer .desc{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+}

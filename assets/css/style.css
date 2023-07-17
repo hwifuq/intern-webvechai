@@ -269,14 +269,14 @@ a{
     left: -8px;
 }
 .preferential .info-buyer{
-    margin: 50px 0 0 100px;
+    margin: 84px 0 0 100px;
     display: flex;
     /* gap: 200px; */
     position: relative;
     justify-content: space-between;
 }
 .preferential .info-seller{
-    margin: 74px 0 0 100px;
+    margin: 24px 0 64px 100px;
     display: flex;
     justify-content: space-between;
     /* gap: 200px; */
@@ -296,4 +296,64 @@ a{
 }
 .preferential .info-seller ul li{
     background-color: rgb(223, 227, 255);
+}
+/* =============================================================== */
+.contact .body{
+    background-color: var(--main-color);
+}
+.contact .body .title{
+    padding: 56px 0 0 24px ;
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.contact .info{
+    display: flex;
+}
+.contact .action{
+    width: 50%;
+    margin-left: 100px;
+}
+.contact .action li input{
+    margin-bottom: 14px;
+    height: 52px;
+    min-width: 420px;
+    border-radius: 8px;
+}
+.btn{
+    background-color: #fff;
+    font-size: 20px;
+    margin: 12px 0 36px;
+    padding: 4px 32px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.contact .social-media{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.contact .social-media .sub-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+.contact .social-media ul{
+    margin-top: 36px;
+    display: flex;
+    gap: 20px;
+}
+.contact .social-media li a{
+    padding: 8px;
+    color: #225859;
+    font-size: 24px;
+    border: solid 1px currentColor;
+    border-radius: 8px;
+}
+.contact .social-media li a:hover{
+    color: var(--main-color);
+    background-color: #fff;
 }

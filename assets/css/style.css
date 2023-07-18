@@ -10,7 +10,7 @@
     width: 1100px;
     margin-left: auto;
     margin-right: auto;
-    /* background-color: rgb(29, 123, 160); */
+    background-color: rgb(248, 253, 255);
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -18,6 +18,9 @@ body{
 a{
     text-decoration: none;
     color: #000;
+}
+strong{
+    font-weight: bold;
 }
 
 .header{
@@ -126,8 +129,6 @@ a{
     color: #000;
     margin-top: 24px;
     font-size: 16px;
-    font-weight: bold;
-    font-style: italic;
     line-height: 24px;
     text-align: justify;
 }
@@ -276,7 +277,8 @@ a{
     justify-content: space-between;
 }
 .preferential .info-seller{
-    margin: 24px 0 64px 100px;
+    margin: 24px 0 0 100px;
+    padding-bottom: 64px;
     display: flex;
     justify-content: space-between;
     /* gap: 200px; */
@@ -348,7 +350,7 @@ a{
 }
 .contact .social-media li a{
     padding: 8px;
-    color: #225859;
+    color: #fff;
     font-size: 24px;
     border: solid 1px currentColor;
     border-radius: 8px;
@@ -359,17 +361,23 @@ a{
 }
 /* ==================================== */
 .footer .body{
-    padding: 24px;
+    padding: 36px;
     display: flex;
+    justify-content: center;
+}
+.footer .img{
+    width: 768px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .footer img{
-    width: 40%;
-}
-.footer .info{
-    margin-left: 120px;
+    width: 100%;
 }
 .footer .desc{
-    font-size: 24px;
+    font-size: 14px;
     font-style: italic;
-    font-weight: 700;
+    font-weight: bold;
+    padding: 14px 0;
 }

@@ -11,6 +11,7 @@
     <!-- Link Font Awe -->
     <script src="https://kit.fontawesome.com/298cd1d7bc.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 
     <title>VeChaiWeb</title>
 </head>
@@ -21,13 +22,15 @@
                 <div class="body">
                     <!-- Logo -->
                     <div class="logo">
-                        <img src="./assets/img/logo.png" alt="logo">
+                        <a href="#!">
+                            <img src="./assets/img/logo.png" alt="logo">
+                        </a>
                     </div>
                     <!-- Nav -->
                     <nav class="nav">
                         <ul>
-                            <li>
-                                <ul class="sub-nav">
+                            <li class="sub-nav">
+                                <ul >
                                     <li>
                                         <a href="#!">Ve Chung Toi</a>
                                     </li>
@@ -39,8 +42,8 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li>
-                                <ul class="action">
+                            <li class="action">
+                                <ul >
                                     <li class="sign-in">
                                         <a href="#!">Dang Nhap</a>
                                     </li>
@@ -51,6 +54,9 @@
                             </li>
                         </ul>
                     </nav>
+                    <div class="short-cut">
+                        <i class="fa-solid fa-bars" style="color: #b6bfcd;"></i>
+                    </div>
                 </div>
             </div>
         </header>
@@ -86,7 +92,19 @@
                         </h3>
                     </div>
                     <div class="district-list">
-                        <ul>
+                        <div class="select">
+                            <label for="district">Lua chon quan cua ban:</label>
+                            <select id="district" name="district">
+                                <option value="1">Quan 1</option>
+                                <option value="2">Quan 2</option>
+                                <option value="3">Quan 3</option>
+                                <option value="5">Quan 5</option>
+                                <option value="6">Quan 6</option>
+                                <option value="10">Quan 10</option>
+                                <option value="bt">Quan Binh Tan</option>
+                            </select>
+                        </div>
+                        <ul class="show-district">
                             <li>
                                 <a href="#!">Quan 1</a>
                             </li>
@@ -356,7 +374,7 @@
                             <button type="submit" class="btn">Submit</button>
                         </form>
                         <div class="social-media">
-                            <h3 class="sub-title">Lien He Chung Toi <br> Qua Cac Trang Mang Xa Hoi</h3>
+                            <h3 class="sub-title"> Qua Cac Trang Mang Xa Hoi</h3>
                             <ul>
                                 <li>
                                     <a href="#!">

@@ -32,10 +32,12 @@ strong{
 }
 
 .header{
- 
+    position: sticky;
+    z-index: 1;
+    top: -32px;
 }
 .header .body{
-    padding-top: 24px ;
+    padding: 64px 0 32px ;
     background-color:var(--main-color);
     height: 120px;
     display: flex;

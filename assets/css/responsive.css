@@ -102,7 +102,9 @@
         padding-top: 32px;
         margin-bottom: 64px;
     }
-
+    .footer .desc{
+        color: #ccc;
+    }
 }
 @media(max-width:860px){
     .branches .list-items{
@@ -126,12 +128,14 @@
         grid-template-rows:1fr;
     }
     .branches .list-items .item:nth-child(even){
-
         display: none;
     }
     .branches .list-items .item:nth-child(odd){
         display: flex;
         align-items: center;
+    }
+    .branches .sub-info{
+        width: 50%;
     }
     .branches .list-items .sub-info{
         margin-left: 24px;

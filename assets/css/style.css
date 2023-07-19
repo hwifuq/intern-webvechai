@@ -23,12 +23,15 @@ strong{
     font-weight: bold;
 }
 .btn{
-    background-color: #fff;
+    background-color: rgb(112,108,34);
     font-size: 20px;
-    margin: 12px 0 36px;
-    padding: 4px 32px;
+
+    padding: 8px 36px;
     border-radius: 8px;
     cursor: pointer;
+    text-align: center;
+    border: 1px solid #000;
+
 }
 
 .header{
@@ -213,6 +216,15 @@ strong{
     border: 1px solid #8187a7;
     border-radius: 8px;
 }
+.branches .list-items .item .btn{
+    background-color: rgb(112,108,34);
+    margin: 24px 0 ;
+    box-shadow: 1px 1px 1px 1px #000;
+    color: var(--main-color);
+    font-weight: bold;
+    padding: 8px 14px;
+}
+
 .branches .sub-info .title{
     margin: 12px 0 0;
     font-size: 16px;
@@ -341,6 +353,9 @@ strong{
     min-width: 420px;
     border-radius: 8px;
 }
+.contact .btn{
+    margin: 12px 0 36px;
+}
 
 .contact .social-media{
     display: flex;
@@ -361,7 +376,7 @@ strong{
 }
 .contact .social-media li a{
     padding: 8px;
-    color: #fff;
+    color: rgb(112,108,34);
     font-size: 24px;
     border: solid 1px currentColor;
     border-radius: 8px;

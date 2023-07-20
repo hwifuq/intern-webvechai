@@ -41,8 +41,6 @@ strong{
 }
 html {
     scroll-behavior: smooth;
-    /* scroll-padding-top: 452px; */
-
 }
 .top-container{
     position: sticky;

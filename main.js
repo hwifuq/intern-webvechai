@@ -28,3 +28,15 @@ navigation.addEventListener('click', ()=>{
 shortcut.addEventListener('click', ()=>{
     main.classList.toggle('active')
 })  
+
+function myFunction(x) {
+    if (x.matches) { // If media query matches
+        
+    }
+    else{
+        main.classList.remove('active')
+    }
+}
+var x = window.matchMedia("(max-width: 1100px)")
+myFunction(x)
+x.addListener(myFunction)

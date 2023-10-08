@@ -16,7 +16,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-
+alert('test');
 action.addEventListener('click', ()=>{
     alert('chua lam ni oi')
 })
